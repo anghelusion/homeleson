@@ -1,5 +1,8 @@
-p{
-    background-color: #34495E ; 
-    border-radius: 20px;
-    padding: 21px;
-} 
+table, tr, td {
+  border: 2px solid black;
+  font-size: 25px;
+   margin: top 1500px; ;
+}
+.special-font{ font-weight: 700; 
+ text-align: center; 
+}
