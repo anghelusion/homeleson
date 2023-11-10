@@ -1,36 +1,41 @@
-let number = +prompt("Введите число:");
-if (number) {
-    let result = number * 0.1;
-    console.log(`10% от введенного числа: ${result}`);
-  }  
+for (let i = 0; i <= 10; i += 2) {
+    console.log(i);
+  }
+222
+
+  for (let i = 55; i >= 20; i--) {
+    console.log(i);
+  }
+221
+  const numbers = [3, 5, 11, 2, 8, 1, 6];
+
+for (let i = 0; i < numbers.length; i++) {
+  console.log(numbers[i]);
+}
+223
+const numbers1 = [3, 5, 11, 2, 8, 1, 6];
+const numbers_squared1 = [];
+
+for (let i = 0; i < numbers1.length; i++) {
+  numbers_squared1.push(numbers1[i] ** 2);
+}
+console.log(numbers_squared1);
+
+
+333 
+const numbers_squared = [9, 25, 121, 4, 64, 1, 36];
+const last_elem = numbers_squared[numbers_squared.length - 1];
+console.log(last_elem);
+
+
+444
+const user = {
+    first_name: 'Ivan',
+    last_name: 'Ivanov',
+    age: 20,
+    salary: 500
+  };
   
-
-  let number1 = +prompt("Введите первое число:");
-  let number2 = +prompt("Введите второе число:");
-  if (number1 < number2) {
-    console.log(`Наименьшее число: ${number1}`);
-  }
-  else if (number2 < number1) {
-    console.log(`Наименьшее число: ${number2}`);
-  } else {
-    console.log("Числа равны.");
-  }
-
-
-  let number3 = +prompt("Введите число:");
-  if (number3 < 100) {
-    console.log("Число меньше 100");
-  } else if (number3 > 100) {
-    console.log("Число больше 100");
-  } else {
-    console.log("Число равно 100");
-  }
-
-
-  let name3 = prompt("Введите ваше имя:");
-  let age = prompt("Введите ваш возраст:");
-  if (age >= 18) {
-    console.log(`Hello, ${name3}`);
-  } else {
-    console.log(`Hi, ${name3}`);
-  }
+  const String = `User's name is ${user.first_name} ${user.last_name}. He is ${user.age} years old.`;
+  
+  console.log(String);
