@@ -1,0 +1,30 @@
+
+#colorSquare {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: background-color 0.5s, width 0.5s, height 0.5s;
+  }
+  
+  #changeButton {
+    margin-top: 10px;
+  }
+
+
+  #colorSquare {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+  }
+  
+  #changeButton {
+    margin-top: 10px;
+  }
+
+
+  #square {
+    width: 150px;
+    height: 150px;
+    background-color: blue; 
+    transition: all 0.3s ease; 
+  }
