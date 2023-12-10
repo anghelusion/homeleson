@@ -1,36 +1,30 @@
-*{
-  padding: o;
-  margin: 0;
-  box-sizing: border-box;
-}
-.wrapper_first{
-  width: 200px;
-  height: 200px;
-  border: 1px solid blue;
-  background-color: blue;
-  left: 800px;
-  top: 300px;
-  position: relative;
-}
-.wrapper_second{ 
-  width: 200px;
-  height: 200px;
-  border: 1px solid red;
-  background-color: red;
-  left: 680px;
-  bottom: 20px;
-  position: relative;
 
-}
-.wrapper_tree{
-  width: 200px;
-  height: 200px;
-  border: 1px solid green;
-  background-color: green;
-  left: 740px;
-  bottom: 160px;
-  position: relative;
-  transition: all 0.3s;
-}
-  .wrapper_tree:hover {
-    transform: rotate(-45deg) scale(1.5);}
+#colorSquare {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: background-color 0.5s, width 0.5s, height 0.5s;
+  }
+  
+  #changeButton {
+    margin-top: 10px;
+  }
+
+
+  #colorSquare {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+  }
+  
+  #changeButton {
+    margin-top: 10px;
+  }
+
+
+  #square {
+    width: 150px;
+    height: 150px;
+    background-color: blue; 
+    transition: all 0.3s ease; 
+  }
