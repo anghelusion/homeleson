@@ -1,0 +1,11 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    background-color: #f0f0f0;
+  }
